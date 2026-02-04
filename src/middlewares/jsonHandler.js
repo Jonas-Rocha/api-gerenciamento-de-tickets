@@ -1,3 +1,5 @@
+// Lidando com o body(juntando os chunks)
+
 export async function jsonHandler(request, response) {
     const buffers = []
 
