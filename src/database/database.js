@@ -60,4 +60,9 @@ export class Database {
         //pelo visto não precisamos retornar os dados pois ja temos acesso a eles no "create.js"
     }
 
+    select(table) {
+    let data = this.#database[table] ?? []
+    return data
+    }
+
 }

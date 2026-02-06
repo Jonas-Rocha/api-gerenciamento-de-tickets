@@ -1,4 +1,5 @@
 import { create } from "../controllers/tickets/create.js";
+import { index } from "../controllers/tickets/index.js";
 
 //Criando as rotas
 export const tickets = [
@@ -11,5 +12,11 @@ export const tickets = [
         // }
         controller: create,
 
+    },
+
+    {
+        method: "GET",
+        path: "/tickets",
+        controller: index,
     }
 ]
