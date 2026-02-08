@@ -1,13 +1,1 @@
-{
-  "tickets": [
-    {
-      "id": "794de63f-e1a4-4c76-88c6-6a9acaa3edee",
-      "equipament": "computer",
-      "description": "O computador não liga",
-      "user_name": "Jonas Rocha",
-      "status": "open",
-      "created_at": "2026-02-05T21:37:28.967Z",
-      "updated_at": "2026-02-05T21:37:28.967Z"
-    }
-  ]
-}
+{"tickets":[{"id":"d46d0ad7-0936-4153-93f7-741bc2a94419","equipament":"computer","description":"O computador não liga","user_name":"Jonas Rocha","status":"open","created_at":"2026-02-06T17:22:35.138Z","updated_at":"2026-02-06T17:22:35.138Z"},{"id":"cec563f0-64ee-4eb9-a125-bd5314168276","equipament":"Celular","description":"O Celular da empresa esta sem internet","user_name":"Andressa Tanakai","status":"open","created_at":"2026-02-06T17:24:31.835Z","updated_at":"2026-02-06T17:24:31.835Z"},{"id":"8dde74df-c651-4150-bfee-fa960c87e4e5","equipament":"Celular","description":"O Celular da empresa esta sem internet","user_name":"Andressa Tanakai","status":"open","created_at":"2026-02-08T13:20:08.974Z","updated_at":"2026-02-08T13:20:08.974Z"}]}
