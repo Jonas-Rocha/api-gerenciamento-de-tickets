@@ -1,6 +1,6 @@
 /**
  * CONVENÇÕES PARA NOMEAR
- * 
+ *
  * CREATE - criar
  * INDEX - listar
  * UPDATE - atualizar
@@ -9,6 +9,9 @@
  */
 
 export function index({ request, response, database }) {
-    const tickets = database.select("tickets")
-    return response.end(JSON.stringify(tickets))
+  const { status } = request.query;
+
+  console.log(status);
+  const tickets = database.select("tickets");
+  return response.end(JSON.stringify(tickets));
 }
