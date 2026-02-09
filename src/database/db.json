@@ -1,22 +1,22 @@
 {
   "tickets": [
     {
-      "id": "6924b02d-c0cd-4aa3-88fd-00e996ea46a4",
+      "id": "5f76f4f1-6b57-499b-b782-8c3cc0cc8c75",
       "equipament": "Celular",
       "description": "O Celular da empresa esta sem internet",
       "user_name": "Andressa Tanakai",
       "status": "closed",
-      "created_at": "2026-02-09T17:29:55.652Z",
-      "updated_at": "2026-02-09T17:29:55.653Z"
+      "created_at": "2026-02-09T21:15:45.739Z",
+      "updated_at": "2026-02-09T21:15:45.739Z"
     },
     {
-      "id": "2262f044-6f6f-4498-8c74-f3a775dc4666",
-      "equipament": "Celular",
-      "description": "O Celular da empresa esta sem internet",
-      "user_name": "Andressa Tanakai",
+      "id": "cdad7201-7276-4476-9cba-172bd193a429",
+      "equipament": "Mouse",
+      "description": "O mouse parou de funcionar",
+      "user_name": "Jonas Rocha",
       "status": "open",
-      "created_at": "2026-02-09T20:46:21.161Z",
-      "updated_at": "2026-02-09T20:46:21.161Z"
+      "created_at": "2026-02-09T21:16:29.616Z",
+      "updated_at": "2026-02-09T21:16:29.616Z"
     }
   ]
 }
