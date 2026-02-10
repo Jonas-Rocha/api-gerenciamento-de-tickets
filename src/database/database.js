@@ -88,4 +88,20 @@ export class Database {
 
     return data;
   }
+
+  update(table, id, data) {
+    /*
+    O método findIndex() retorna o índice no array do primeiro elemento que satisfizer a função de teste provida. 
+    Caso contrário, retorna -1, indicando que nenhum elemento passou no teste.
+    */
+    const rowIndex = this.#database[table].findIndex((row) => row.id === id);
+
+    if (rowIndex > -1) {
+      this.#database[table][rowIndex] = {
+        ...this.#database[table][rowIndex],
+        ...data,
+      };
+      this.#persist();
+    }
+  }
 }
