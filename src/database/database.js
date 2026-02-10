@@ -104,4 +104,18 @@ export class Database {
       this.#persist();
     }
   }
+
+  delete(table, id) {
+    //queremos identificar qual é o index do registro (ticket) [0]
+    const rowIndex = this.#database[table].findIndex((row) => row.id === id);
+
+    if (rowIndex > -1) {
+      /*
+      esse splice(rowIndex, 1) basicamente esta dizendo que queremos remover apenas uma linha(a propria).
+      se tivesse splice(rowIndex, 2) estariamos removendo as proximas duas linhas depois do rowIndex
+      */
+      this.#database[table].splice(rowIndex, 1);
+      this.#persist();
+    }
+  }
 }
