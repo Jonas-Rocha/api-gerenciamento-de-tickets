@@ -1,3 +1,7 @@
 export function updateStatus({ request, response, database }) {
-  response.end("ok");
+  const { id } = request.params;
+
+  database.update("tickets", id, { status: "closed" });
+
+  response.end();
 }
